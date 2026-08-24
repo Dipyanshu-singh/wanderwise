@@ -1,26 +1,23 @@
-# RUHI — Rural Upliftment for Health in India
+# STAP- 'Smart Tourism Assistance Platform'
 
-RUHI is an AI-powered, multilingual healthcare companion web application 
-built for rural and semi-urban India.
+# Smart Tourism Platform
 
-Millions in rural India struggle to identify government health schemes they 
-qualify for, describe symptoms in their own language, interpret prescriptions 
-written in English, or find the nearest health centre — often compounded by 
-patchy internet access. RUHI bridges this gap by letting users simply speak 
-or type in Hindi or a regional language to get:
+A one-stop, multilingual digital tourism platform designed to make travel in India safer, easier, and more affordable. The platform connects tourists with verified hotels, local transport, guides, restaurants, attractions, and authentic local experiences.
 
-- 🗣️ **Voice-based multilingual symptom checker** – natural-language triage guidance (not a diagnostic tool)
-- 🏛️ **Government health scheme finder** – eligibility checks and how-to-apply guidance for schemes like Ayushman Bharat (PM-JAY) and Janani Suraksha Yojana
-- 📄 **Prescription photo translator** – converts English/medical prescriptions into the user's local language
-- 📍 **Nearest PHC/CHC locator** – directions to the closest health centre
+### Key Features
 
-## Current Status
-RUHI is currently live as a **web application**. 
+* 🌍 Multilingual tourism assistance
+* 🏨 Verified hotels and local services
+* 🚕 Trusted transport and local guides
+* 💰 Fair-price estimates to reduce overcharging
+* ⭐ Verified reviews and trusted recommendations
+* 🗺️ Personalized travel itineraries
+* 🛡️ Safety and emergency assistance
+* 🤝 Better visibility and opportunities for local businesses
 
-### 🚧 Roadmap
-- 📶 **Offline-first mode** — usable in low-connectivity rural areas with sync-on-reconnect
-- 📱 **Native mobile apps** (Android/iOS) for wider, easier access
-- 💬 **WhatsApp/voice-call integration** for users without smartphones or app access
+The goal is to create a trusted digital ecosystem that simplifies travel while supporting India's local tourism economy.
+
+
 
 ## Tech Stack
 - **Frontend:** React + Tailwind CSS
@@ -30,10 +27,12 @@ RUHI is currently live as a **web application**.
 - **Auth:** Firebase Authentication
 - **Maps:** Google Maps / OpenStreetMap
 
-## Why RUHI?
-Most solutions in this space stop at a chatbot. RUHI pairs symptom triage 
-with an entitlement engine, prescription literacy tools, and (soon) offline 
-resilience — tackling awareness, accessibility, and continuity of care 
-together, in one voice-first product.
+ ## Why STAP?
+STAP brings the major needs of a tourist into one trusted platform instead of requiring multiple apps for hotels, transport, food, guides, attractions, and safety.
+S — Smart: Personalized recommendations and itineraries.
+T — Tourism: Focused specifically on improving the travel experience.
+A — Assistance: Provides support for pricing, navigation, language, and safety.
+P — Platform: Connects tourists with verified local services in one place.
+One-line pitch:
+STAP — Smart Tourism Assistance Platform: One platform for a smarter, safer, and more trusted journey.
 
-Built by **Team Nebula** for **Decode SIH 2026**.
