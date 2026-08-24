@@ -1,0 +1,143 @@
+export const destinations = [
+  {
+    id: 'd1',
+    name: 'Hampi',
+    region: 'Karnataka, India',
+    description: 'Stone temples, slow mornings, and stories written into the landscape.',
+    image: 'https://images.unsplash.com/photo-1600100397608-f010b1e8fdb9?auto=format&fit=crop&w=1200&q=80',
+    price: 4200,
+    rating: 4.9,
+    tag: 'Offbeat gem',
+  },
+  {
+    id: 'd2',
+    name: 'Alappuzha',
+    region: 'Kerala, India',
+    description: 'A quieter backwater rhythm with houseboats, toddy shops, and golden light.',
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80',
+    price: 5100,
+    rating: 4.8,
+    tag: 'Slow travel',
+  },
+  {
+    id: 'd3',
+    name: 'Tirthan Valley',
+    region: 'Himachal Pradesh, India',
+    description: 'Pine trails, river picnics, and homestays at the edge of the Great Himalayan park.',
+    image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+    price: 3800,
+    rating: 4.7,
+    tag: 'Nature reset',
+  },
+  {
+    id: 'd4',
+    name: 'Pondicherry',
+    region: 'Tamil Nadu, India',
+    description: 'French lanes, fresh filter coffee, and coastal cycling far from the rush.',
+    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
+    price: 3300,
+    rating: 4.6,
+    tag: 'Coastal culture',
+  },
+];
+
+export const hotels = [
+  {
+    id: 'h1',
+    name: 'Mango Tree Homestay',
+    location: 'Hampi, Karnataka',
+    image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1000&q=80',
+    price: 4200,
+    rating: 4.9,
+    reviews: 128,
+    amenities: ['Breakfast', 'Garden', 'Wi-Fi'],
+    offbeat: true,
+  },
+  {
+    id: 'h2',
+    name: 'Kadalundi River Retreat',
+    location: 'Alappuzha, Kerala',
+    image: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1000&q=80',
+    price: 5700,
+    rating: 4.8,
+    reviews: 94,
+    amenities: ['River view', 'Kayaks', 'Dinner'],
+    offbeat: true,
+  },
+  {
+    id: 'h3',
+    name: 'The Pine & Pebble',
+    location: 'Tirthan Valley, Himachal',
+    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1000&q=80',
+    price: 4900,
+    rating: 4.7,
+    reviews: 73,
+    amenities: ['Fireplace', 'Trails', 'Bonfire'],
+    offbeat: false,
+  },
+];
+
+export const experiences = [
+  {
+    id: 'e1',
+    title: 'Heritage breakfast with a local family',
+    host: 'Hosted by Asha',
+    category: 'Food',
+    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1000&q=80',
+    price: 950,
+    duration: '2.5 hours',
+    rating: 4.9,
+  },
+  {
+    id: 'e2',
+    title: 'Pottery, chai, and a village studio',
+    host: 'Hosted by Meera',
+    category: 'Workshops',
+    image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=1000&q=80',
+    price: 1200,
+    duration: '3 hours',
+    rating: 4.8,
+  },
+  {
+    id: 'e3',
+    title: 'Sunrise coracle ride on the Tungabhadra',
+    host: 'Hosted by Ravi',
+    category: 'Adventure',
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80',
+    price: 1600,
+    duration: '2 hours',
+    rating: 4.7,
+  },
+];
+
+export const defaultItinerary = [
+  {
+    day: 'Day 1',
+    date: '12 Oct',
+    title: 'Arrive gently',
+    slots: [
+      { time: 'Morning', text: 'Check in and settle into Mango Tree Homestay', type: 'stay' },
+      { time: 'Afternoon', text: 'Walk through the riverside ruins at Achyutaraya Temple', type: 'culture' },
+      { time: 'Evening', text: 'Golden-hour boulder trail and locally cooked dinner', type: 'food' },
+    ],
+  },
+  {
+    day: 'Day 2',
+    date: '13 Oct',
+    title: 'See the everyday Hampi',
+    slots: [
+      { time: 'Morning', text: 'Sunrise coracle ride on the Tungabhadra', type: 'adventure' },
+      { time: 'Afternoon', text: 'Heritage breakfast with a local family', type: 'food' },
+      { time: 'Evening', text: 'Slow cycle through Anegundi village', type: 'culture' },
+    ],
+  },
+  {
+    day: 'Day 3',
+    date: '14 Oct',
+    title: 'Leave with a story',
+    slots: [
+      { time: 'Morning', text: 'Coffee, journal time, and a final market wander', type: 'slow' },
+      { time: 'Afternoon', text: 'Pack a local snack box for the journey home', type: 'food' },
+    ],
+  },
+];
