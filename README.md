@@ -1,4 +1,5 @@
-# STAP- 'Smart Tourism Assistance Platform'
+# Wanderwise
+
 
 # Smart Tourism Platform
 
